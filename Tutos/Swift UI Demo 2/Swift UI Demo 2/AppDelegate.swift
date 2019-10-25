@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  exampleDelegate2
+//  Swift UI Demo 2
 //
-//  Created by EDUARDO MEJIA on 24/10/19.
+//  Created by EDUARDO MEJIA on 25/10/19.
 //  Copyright © 2019 EDUARDO MEJIA. All rights reserved.
 //
 
