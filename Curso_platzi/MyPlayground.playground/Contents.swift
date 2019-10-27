@@ -14,14 +14,14 @@ accountTotal += 100_000
 //print(accountTotal)
 
 var isActive = !fullName.isEmpty
-print(isActive)
+//print(isActive)
 
 //print("\(fullName.capitalized) tiene \(edad) de edad, el saldo en su cuenta es \(accountTotal) de pesos en su cuenta de ahorros")
 
 //INTRODUCCION A ARRAYS
 
 var transactions:[Float] = [20,10,100.0]
-print(transactions.count)
+//print(transactions.count)
 //print(transactions.count)
 //print(transactions.isEmpty)
 transactions.append(40)
@@ -39,9 +39,7 @@ var dailytransactionsDict: [String:[Float]] = [
     "5nov":[111]
 ]
 dailytransactionsDict.updateValue([500], forKey: "6nov")
-dailytransactionsDict.sorted { ((key: "1nov", value: [1]), (key: "6nov", value: [1000])) -> Bool in
-    <#code#>
-}
+
 
 print(dailytransactionsDict)
 //dailytransaction.first
@@ -51,3 +49,14 @@ print(dailytransactionsDict)
 //var dict = [ 1 : "abc", 2 : "cde"]
 //dict.updateValue("efg", forKey: 3)
 //print(dict)
+// USO EL IF ELSE ELSEIF
+print(accountTotal)
+if accountTotal > 1_000_000{
+print("SOMOS RICOS")
+    
+}else if accountTotal > 0{
+    print("No tenemos yanto dinero")
+}else{
+    print("No tenemos nada")
+}
+
