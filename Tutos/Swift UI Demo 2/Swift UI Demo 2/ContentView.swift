@@ -16,9 +16,9 @@ struct ContentView: View {
                     .font(.largeTitle)
             
             HStack{
-                    Text("Texto mas peque By Eddieware").font(.subheadline)
+                    Text("UI Beta to cheack constraints").font(.subheadline)
                 Spacer()
-                Text("Mexico City").font(.subheadline)
+                Text("Irapuato gto. MEX").font(.subheadline)
             
             }//Fin H stack
         }.padding()//Fin V stack
