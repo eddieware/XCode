@@ -91,3 +91,30 @@ case "B":
 default:
     print("Es otro banco")
 }
+
+//-----------------FOR-----------------
+var total: Float = 0
+var total2: Float = 0
+for transaction in transactions{
+    total += transaction
+}
+print(total)
+print(accountTotal)
+accountTotal -= total
+print(accountTotal)
+
+for keys in dailytransactionsDict.keys {
+    for transaction in dailytransactionsDict[keys] ?? [] {
+        total2 += transaction
+
+    }
+}
+//print(dailytransactionsDict)
+//print(total2)
+
+//----------------OPCIONALES--------------
+var nombre : String?
+nombre = "Andres"
+
+print(nombre ?? "No tengo un nombre")
+print(nombre!) forcing robbing
