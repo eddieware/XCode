@@ -41,7 +41,7 @@ var dailytransactionsDict: [String:[Float]] = [
 dailytransactionsDict.updateValue([500], forKey: "6nov")
 
 
-print(dailytransactionsDict)
+//print(dailytransactionsDict)
 //dailytransaction.first
 //dailytransaction[0].isEmpty
 //dailytransaction.append("5nov":[111])
@@ -51,12 +51,43 @@ print(dailytransactionsDict)
 //print(dict)
 // USO EL IF ELSE ELSEIF
 print(accountTotal)
-if accountTotal > 1_000_000{
-print("SOMOS RICOS")
+//if accountTotal > 1_000_000{
+//print("SOMOS RICOS")
+//
+//}else if accountTotal > 0{
+//    print("No tenemos yanto dinero")
+//}else{
+//    print("No tenemos nada")
+//}
+
+//IN LINE IF
+let hasMoney = accountTotal > 1_000_000 ? "Somos ricos" : "No somos ricos"
+print(hasMoney)
+
+
+//------------------------SWITCH----------------------------//
+var age = 24
+var tax = 1.0
+
+switch age {
+case 0...17:
+    print("No podemos darte una tarjeta de credito")
+case 18...22:
+    print("la tasa de interes es del 2%")
+    tax = 2
+case 23...25:
+    print("la tasa de interes es del 1.5%")
+    tax = 1.5
     
-}else if accountTotal > 0{
-    print("No tenemos yanto dinero")
-}else{
-    print("No tenemos nada")
+default:
+    print("La tasa de interes es del 1%")
 }
 
+let bankType = "B"
+
+switch bankType {
+case "B":
+    print("Es el banco B")
+default:
+    print("Es otro banco")
+}
