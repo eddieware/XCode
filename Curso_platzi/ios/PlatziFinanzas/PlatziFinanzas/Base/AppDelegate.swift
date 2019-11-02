@@ -4,7 +4,7 @@
 //
 //  Created by EDUARDO MEJIA on 29/10/19.
 //  Copyright © 2019 EDUARDO MEJIA. All rights reserved.
-//
+//Aspect Radio se logra uniendo la imagen con si misma con ctrl y esto conserva la relacion entre largo y ancho
 
 import UIKit
 
