@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C52CDC6123689F160040326D /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = C52CDC6023689F160040326D /* View.xib */; };
+		C5CCFCBC236E03D300BCEFF4 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CCFCBB236E03D300BCEFF4 /* Transactions.storyboard */; };
+		C5CCFCBF236E04ED00BCEFF4 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CCFCBD236E04ED00BCEFF4 /* LoginView.storyboard */; };
+		C5CCFCC1236E053800BCEFF4 /* VistaGeneral.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CCFCC0236E053800BCEFF4 /* VistaGeneral.storyboard */; };
+		C5CCFCC4236E056000BCEFF4 /* EmptyState.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CCFCC2236E056000BCEFF4 /* EmptyState.storyboard */; };
 		C5E74AC6236885440071F61B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E74AC5236885440071F61B /* AppDelegate.swift */; };
 		C5E74AC8236885440071F61B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E74AC7236885440071F61B /* SceneDelegate.swift */; };
 		C5E74ACA236885440071F61B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E74AC9236885440071F61B /* ViewController.swift */; };
@@ -25,6 +29,10 @@
 
 /* Begin PBXFileReference section */
 		C52CDC6023689F160040326D /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		C5CCFCBB236E03D300BCEFF4 /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
+		C5CCFCBE236E04ED00BCEFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas/Application/Main/Base.lproj/LoginView.storyboard; sourceTree = "<group>"; };
+		C5CCFCC0236E053800BCEFF4 /* VistaGeneral.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VistaGeneral.storyboard; sourceTree = "<group>"; };
+		C5CCFCC3236E056000BCEFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas/Application/Main/Base.lproj/EmptyState.storyboard; sourceTree = "<group>"; };
 		C5E74AC2236885440071F61B /* PlatziFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E74AC5236885440071F61B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5E74AC7236885440071F61B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +104,7 @@
 		C52CDC5E236899330040326D /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
+				C5CCFCBB236E03D300BCEFF4 /* Transactions.storyboard */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -110,6 +119,9 @@
 		C5E74AB9236885440071F61B = {
 			isa = PBXGroup;
 			children = (
+				C5CCFCC2236E056000BCEFF4 /* EmptyState.storyboard */,
+				C5CCFCC0236E053800BCEFF4 /* VistaGeneral.storyboard */,
+				C5CCFCBD236E04ED00BCEFF4 /* LoginView.storyboard */,
 				C5E74AE823688C230071F61B /* production.entitlements */,
 				C5E74AC4236885440071F61B /* PlatziFinanzas */,
 				C5E74AC3236885440071F61B /* Products */,
@@ -258,9 +270,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C52CDC6123689F160040326D /* View.xib in Resources */,
+				C5CCFCC1236E053800BCEFF4 /* VistaGeneral.storyboard in Resources */,
+				C5CCFCBC236E03D300BCEFF4 /* Transactions.storyboard in Resources */,
 				C5E74AD2236885450071F61B /* LaunchScreen.storyboard in Resources */,
+				C5CCFCC4236E056000BCEFF4 /* EmptyState.storyboard in Resources */,
 				C5E74ACF236885450071F61B /* Assets.xcassets in Resources */,
 				C5E74ACD236885440071F61B /* Main.storyboard in Resources */,
+				C5CCFCBF236E04ED00BCEFF4 /* LoginView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +316,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		C5CCFCBD236E04ED00BCEFF4 /* LoginView.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5CCFCBE236E04ED00BCEFF4 /* Base */,
+			);
+			name = LoginView.storyboard;
+			sourceTree = "<group>";
+		};
+		C5CCFCC2236E056000BCEFF4 /* EmptyState.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5CCFCC3236E056000BCEFF4 /* Base */,
+			);
+			name = EmptyState.storyboard;
+			sourceTree = "<group>";
+		};
 		C5E74ACB236885440071F61B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
