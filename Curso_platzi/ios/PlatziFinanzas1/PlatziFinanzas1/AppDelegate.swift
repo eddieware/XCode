@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Platzifinanzas_1
+//  PlatziFinanzas1
 //
 //  Created by EDUARDO MEJIA on 02/11/19.
 //  Copyright © 2019 EDUARDO MEJIA. All rights reserved.
