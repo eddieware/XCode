@@ -66,7 +66,7 @@
                         <viewLayoutGuide key="safeArea" id="c7o-9a-tbD"/>
                     </view>
                     <toolbarItems>
-                        <barButtonItem title="Item" id="F6d-25-JzR">
+                        <barButtonItem title="back" id="F6d-25-JzR">
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="show" id="emN-I4-kRS"/>
                             </connections>
