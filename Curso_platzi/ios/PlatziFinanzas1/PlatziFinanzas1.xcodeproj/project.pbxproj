@@ -18,6 +18,7 @@
 		C553C7D6236F42DF00900F87 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C553C7D4236F42DF00900F87 /* Budget.storyboard */; };
 		C553C7D8236F436300900F87 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C553C7D7236F436300900F87 /* Add.storyboard */; };
 		C553C7DB236F437C00900F87 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C553C7D9236F437C00900F87 /* Profile.storyboard */; };
+		C553C7DD236F4F0F00900F87 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C553C7DC236F4F0F00900F87 /* SignIn.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		C553C7D5236F42DF00900F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas1/Application/Main/Main/Base.lproj/Budget.storyboard; sourceTree = SOURCE_ROOT; };
 		C553C7D7236F436300900F87 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = SOURCE_ROOT; };
 		C553C7DA236F437C00900F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas1/Application/Main/Main/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		C553C7DC236F4F0F00900F87 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +68,10 @@
 		C504D940236E3CFC008F89B0 /* PlatziFinanzas1 */ = {
 			isa = PBXGroup;
 			children = (
-				C553C7CC236F41C300900F87 /* Autentication */,
 				C504D955236E3D04008F89B0 /* Resources */,
 				C504D957236E3D78008F89B0 /* Base */,
 				C5E0F3A5236E407A00EBF8E9 /* Application */,
+				C553C7CC236F41C300900F87 /* Autentication */,
 				C504D94C236E3CFE008F89B0 /* LaunchScreen.storyboard */,
 			);
 			path = PlatziFinanzas1;
@@ -137,6 +139,7 @@
 		C553C7CE236F41DC00900F87 /* Sign In */ = {
 			isa = PBXGroup;
 			children = (
+				C553C7DC236F4F0F00900F87 /* SignIn.storyboard */,
 			);
 			path = "Sign In";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				C504D94B236E3CFE008F89B0 /* Assets.xcassets in Resources */,
 				C553C7DB236F437C00900F87 /* Profile.storyboard in Resources */,
 				C553C7D8236F436300900F87 /* Add.storyboard in Resources */,
+				C553C7DD236F4F0F00900F87 /* SignIn.storyboard in Resources */,
 				C504D949236E3CFC008F89B0 /* Main.storyboard in Resources */,
 				C553C7D3236F429600900F87 /* Statistics.storyboard in Resources */,
 				C553C7D1236F424A00900F87 /* Transactions.storyboard in Resources */,
