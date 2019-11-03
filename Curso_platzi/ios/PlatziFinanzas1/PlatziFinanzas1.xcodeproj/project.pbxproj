@@ -13,6 +13,11 @@
 		C504D949236E3CFC008F89B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C504D947236E3CFC008F89B0 /* Main.storyboard */; };
 		C504D94B236E3CFE008F89B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C504D94A236E3CFE008F89B0 /* Assets.xcassets */; };
 		C504D94E236E3CFE008F89B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C504D94C236E3CFE008F89B0 /* LaunchScreen.storyboard */; };
+		C553C7D1236F424A00900F87 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C553C7CF236F424A00900F87 /* Transactions.storyboard */; };
+		C553C7D3236F429600900F87 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C553C7D2236F429600900F87 /* Statistics.storyboard */; };
+		C553C7D6236F42DF00900F87 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C553C7D4236F42DF00900F87 /* Budget.storyboard */; };
+		C553C7D8236F436300900F87 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C553C7D7236F436300900F87 /* Add.storyboard */; };
+		C553C7DB236F437C00900F87 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C553C7D9236F437C00900F87 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		C504D94A236E3CFE008F89B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C504D94D236E3CFE008F89B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C504D94F236E3CFE008F89B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C553C7D0236F424A00900F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas1/Application/Main/Main/Base.lproj/Transactions.storyboard; sourceTree = SOURCE_ROOT; };
+		C553C7D2236F429600900F87 /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = SOURCE_ROOT; };
+		C553C7D5236F42DF00900F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas1/Application/Main/Main/Base.lproj/Budget.storyboard; sourceTree = SOURCE_ROOT; };
+		C553C7D7236F436300900F87 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = SOURCE_ROOT; };
+		C553C7DA236F437C00900F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas1/Application/Main/Main/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +97,7 @@
 		C514220E236E4986007F6FBC /* Transaction */ = {
 			isa = PBXGroup;
 			children = (
+				C553C7CF236F424A00900F87 /* Transactions.storyboard */,
 			);
 			path = Transaction;
 			sourceTree = "<group>";
@@ -94,6 +105,7 @@
 		C553C7CA236F413F00900F87 /* Add */ = {
 			isa = PBXGroup;
 			children = (
+				C553C7D7236F436300900F87 /* Add.storyboard */,
 			);
 			path = Add;
 			sourceTree = "<group>";
@@ -101,6 +113,7 @@
 		C553C7CB236F416900900F87 /* Statistics */ = {
 			isa = PBXGroup;
 			children = (
+				C553C7D2236F429600900F87 /* Statistics.storyboard */,
 			);
 			path = Statistics;
 			sourceTree = "<group>";
@@ -168,6 +181,7 @@
 		C5E0F3A8236E40E300EBF8E9 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				C553C7D9236F437C00900F87 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -175,6 +189,7 @@
 		C5E0F3A9236E410800EBF8E9 /* Budget */ = {
 			isa = PBXGroup;
 			children = (
+				C553C7D4236F42DF00900F87 /* Budget.storyboard */,
 			);
 			path = Budget;
 			sourceTree = "<group>";
@@ -239,7 +254,12 @@
 			files = (
 				C504D94E236E3CFE008F89B0 /* LaunchScreen.storyboard in Resources */,
 				C504D94B236E3CFE008F89B0 /* Assets.xcassets in Resources */,
+				C553C7DB236F437C00900F87 /* Profile.storyboard in Resources */,
+				C553C7D8236F436300900F87 /* Add.storyboard in Resources */,
 				C504D949236E3CFC008F89B0 /* Main.storyboard in Resources */,
+				C553C7D3236F429600900F87 /* Statistics.storyboard in Resources */,
+				C553C7D1236F424A00900F87 /* Transactions.storyboard in Resources */,
+				C553C7D6236F42DF00900F87 /* Budget.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +293,30 @@
 				C504D94D236E3CFE008F89B0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C553C7CF236F424A00900F87 /* Transactions.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C553C7D0236F424A00900F87 /* Base */,
+			);
+			name = Transactions.storyboard;
+			sourceTree = "<group>";
+		};
+		C553C7D4236F42DF00900F87 /* Budget.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C553C7D5236F42DF00900F87 /* Base */,
+			);
+			name = Budget.storyboard;
+			sourceTree = "<group>";
+		};
+		C553C7D9236F437C00900F87 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C553C7DA236F437C00900F87 /* Base */,
+			);
+			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
