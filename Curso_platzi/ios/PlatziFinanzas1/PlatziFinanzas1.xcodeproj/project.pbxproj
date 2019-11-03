@@ -17,13 +17,13 @@
 
 /* Begin PBXFileReference section */
 		C504D93E236E3CFC008F89B0 /* PlatziFinanzas1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziFinanzas1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C504D941236E3CFC008F89B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C504D943236E3CFC008F89B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C504D941236E3CFC008F89B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		C504D943236E3CFC008F89B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
 		C504D945236E3CFC008F89B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C504D948236E3CFC008F89B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C504D94A236E3CFE008F89B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C504D94D236E3CFE008F89B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C504D94F236E3CFE008F89B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C504D94F236E3CFE008F89B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +56,11 @@
 		C504D940236E3CFC008F89B0 /* PlatziFinanzas1 */ = {
 			isa = PBXGroup;
 			children = (
-				C5E0F3A5236E407A00EBF8E9 /* Application */,
+				C553C7CC236F41C300900F87 /* Autentication */,
 				C504D955236E3D04008F89B0 /* Resources */,
-				C504D941236E3CFC008F89B0 /* AppDelegate.swift */,
-				C504D94C236E3CFE008F89B0 /* LaunchScreen.storyboard */,
-				C504D943236E3CFC008F89B0 /* SceneDelegate.swift */,
-				C504D94F236E3CFE008F89B0 /* Info.plist */,
 				C504D957236E3D78008F89B0 /* Base */,
+				C5E0F3A5236E407A00EBF8E9 /* Application */,
+				C504D94C236E3CFE008F89B0 /* LaunchScreen.storyboard */,
 			);
 			path = PlatziFinanzas1;
 			sourceTree = "<group>";
@@ -79,6 +77,9 @@
 		C504D957236E3D78008F89B0 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				C504D941236E3CFC008F89B0 /* AppDelegate.swift */,
+				C504D943236E3CFC008F89B0 /* SceneDelegate.swift */,
+				C504D94F236E3CFE008F89B0 /* Info.plist */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -88,6 +89,43 @@
 			children = (
 			);
 			path = Transaction;
+			sourceTree = "<group>";
+		};
+		C553C7CA236F413F00900F87 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		C553C7CB236F416900900F87 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		C553C7CC236F41C300900F87 /* Autentication */ = {
+			isa = PBXGroup;
+			children = (
+				C553C7CE236F41DC00900F87 /* Sign In */,
+				C553C7CD236F41CE00900F87 /* On Boarding */,
+			);
+			path = Autentication;
+			sourceTree = "<group>";
+		};
+		C553C7CD236F41CE00900F87 /* On Boarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "On Boarding";
+			sourceTree = "<group>";
+		};
+		C553C7CE236F41DC00900F87 /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sign In";
 			sourceTree = "<group>";
 		};
 		C5E0F3A4236E405700EBF8E9 /* Images */ = {
@@ -108,10 +146,12 @@
 		C5E0F3A6236E409100EBF8E9 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				C514220E236E4986007F6FBC /* Transaction */,
+				C553C7CA236F413F00900F87 /* Add */,
+				C553C7CB236F416900900F87 /* Statistics */,
 				C5E0F3A9236E410800EBF8E9 /* Budget */,
 				C5E0F3A7236E409A00EBF8E9 /* Main */,
 				C5E0F3A8236E40E300EBF8E9 /* Profile */,
+				C514220E236E4986007F6FBC /* Transaction */,
 			);
 			path = Main;
 			sourceTree = "<group>";
