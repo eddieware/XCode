@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="io1-Q1-TX4">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,45 +12,34 @@
             <objects>
                 <viewController id="io1-Q1-TX4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cgb-fm-Pni">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen1" translatesAutoresizingMaskIntoConstraints="NO" id="N1c-g9-IYD">
-                                <rect key="frame" x="40" y="84" width="334" height="178"/>
+                                <rect key="frame" x="40" y="40" width="295" height="153.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="N1c-g9-IYD" secondAttribute="height" multiplier="15:8" id="Ejj-kW-g68"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="304" id="b37-Lo-wpk"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="600" id="x3c-aW-GHh"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g8x-LT-YWQ">
-                                <rect key="frame" x="0.0" y="764" width="414" height="98"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TWp-bS-xcJ">
-                                        <rect key="frame" x="0.0" y="-21" width="414" height="200"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="200" id="OGO-tN-gNu"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wfm-to-C10">
+                                <rect key="frame" x="0.0" y="614" width="375" height="98"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="LBR-l1-5Lr"/>
-                                    <constraint firstAttribute="height" constant="98" id="RDa-LF-j0e"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="98" id="mOR-XY-A44"/>
-                                    <constraint firstAttribute="width" constant="414" id="n4N-je-K5b"/>
+                                    <constraint firstAttribute="height" constant="98" id="Zum-Dy-beS"/>
+                                    <constraint firstAttribute="width" constant="375" id="v2A-FQ-9ry"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Wfm-to-C10" firstAttribute="top" secondItem="N1c-g9-IYD" secondAttribute="bottom" constant="375.5" id="1Q7-si-alG"/>
                             <constraint firstItem="N1c-g9-IYD" firstAttribute="centerX" secondItem="cgb-fm-Pni" secondAttribute="centerX" id="4RY-u8-M3G"/>
-                            <constraint firstItem="g8x-LT-YWQ" firstAttribute="centerX" secondItem="cgb-fm-Pni" secondAttribute="centerX" id="8C1-jg-9zU"/>
                             <constraint firstItem="SgK-Xm-itt" firstAttribute="trailing" secondItem="N1c-g9-IYD" secondAttribute="trailing" constant="40" id="8q8-T9-sao"/>
                             <constraint firstItem="N1c-g9-IYD" firstAttribute="top" secondItem="SgK-Xm-itt" secondAttribute="top" constant="40" id="Jp2-9k-TuE"/>
-                            <constraint firstItem="g8x-LT-YWQ" firstAttribute="top" secondItem="N1c-g9-IYD" secondAttribute="bottom" constant="342" id="Jp4-n4-XS0"/>
-                            <constraint firstItem="g8x-LT-YWQ" firstAttribute="top" secondItem="N1c-g9-IYD" secondAttribute="bottom" constant="342.5" id="faA-x3-wxa"/>
-                            <constraint firstItem="g8x-LT-YWQ" firstAttribute="centerY" secondItem="cgb-fm-Pni" secondAttribute="centerY" id="mMD-sD-B0g"/>
+                            <constraint firstItem="SgK-Xm-itt" firstAttribute="trailing" secondItem="Wfm-to-C10" secondAttribute="trailing" id="MBK-V8-ZzF"/>
+                            <constraint firstItem="Wfm-to-C10" firstAttribute="leading" secondItem="SgK-Xm-itt" secondAttribute="leading" id="do9-cd-0ey"/>
+                            <constraint firstItem="SgK-Xm-itt" firstAttribute="bottom" secondItem="Wfm-to-C10" secondAttribute="bottom" id="iJE-VT-1U0"/>
                             <constraint firstItem="N1c-g9-IYD" firstAttribute="leading" secondItem="SgK-Xm-itt" secondAttribute="leading" constant="40" id="n4i-tn-dy7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SgK-Xm-itt"/>
@@ -58,7 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hVF-xl-sky" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
+            <point key="canvasLocation" x="136.80000000000001" y="115.59220389805098"/>
         </scene>
     </scenes>
     <resources>
