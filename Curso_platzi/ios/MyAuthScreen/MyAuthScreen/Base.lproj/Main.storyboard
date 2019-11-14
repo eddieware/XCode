@@ -28,7 +28,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="256"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_fb" translatesAutoresizingMaskIntoConstraints="NO" id="caO-4w-OWz">
-                                <rect key="frame" x="169.5" y="99" width="75.000000000000057" height="75.000000000000057"/>
+                                <rect key="frame" x="169.5" y="99" width="75" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="9ec-mM-ZUd"/>
                                     <constraint firstAttribute="width" constant="75" id="E7y-I1-7C4"/>
@@ -139,6 +139,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="LoginDataView" destination="b5e-5g-8cN" id="M7b-ps-3t5"/>
+                        <outlet property="LoginLineView" destination="h3K-OK-WuR" id="WFV-PA-pYh"/>
+                        <outlet property="LogoImageView" destination="caO-4w-OWz" id="ELj-93-Ssc"/>
+                        <outlet property="UserTextField" destination="nAd-Wo-jpX" id="qea-95-GET"/>
+                        <outlet property="headerImageView" destination="8bC-Xf-vdC" id="27m-9D-gAi"/>
+                        <outlet property="passwordTextField" destination="OTK-d4-7EQ" id="PTW-Bf-VHo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
