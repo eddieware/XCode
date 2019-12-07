@@ -2,28 +2,28 @@ import Foundation
 
 class FileHelper {
 
-let objetoFileManager = NSFileManager.defaultManager()
+    let objetoFileManager = FileManager.default
 
 
 //Regresa el path de la carpeta de documentos de la app
 func pathCarpetaDocumentos() -> String {
     
-    let documentsFolderPath = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)[0]
+    let documentsFolderPath = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true)[0]
     
     return documentsFolderPath
 }
 
 //Regresa el path completo de un archivo que este dentro de la carpeta de documentos
-func pathArchivoEnCarpetaDocumentos(nombreArchivo: String) -> String{
-    return (pathCarpetaDocumentos() as NSString).stringByAppendingPathComponent(nombreArchivo)
+func pathArchivoEnCarpetaDocumentos(_ nombreArchivo: String) -> String{
+    return (pathCarpetaDocumentos() as NSString).appendingPathComponent(nombreArchivo)
 }
 
 //Revisa si existe o no un archivo en el directorio de documentos
 
-func existeArchivoEnDocumentos(nombreArchivo: String) -> Bool{
+func existeArchivoEnDocumentos(_ nombreArchivo: String) -> Bool{
     var existe:Bool?
     
-    if (objetoFileManager.fileExistsAtPath(pathArchivoEnCarpetaDocumentos(nombreArchivo)))
+    if (objetoFileManager.fileExists(atPath: pathArchivoEnCarpetaDocumentos(nombreArchivo)))
     {
         print("El archivo \(nombreArchivo) existe en el path de documentos.");
         existe = true
@@ -39,18 +39,18 @@ func existeArchivoEnDocumentos(nombreArchivo: String) -> Bool{
 
 //Data Base
 
-func pathBaseDatosEnBundle(nombreBaseDatos: String) -> String{
-    let path = NSBundle.mainBundle().pathForResource(nombreBaseDatos, ofType:"sqlite")
+func pathBaseDatosEnBundle(_ nombreBaseDatos: String) -> String{
+    let path = Bundle.main.path(forResource: nombreBaseDatos, ofType:"sqlite")
     return path!
 }
 
 
-func dbExisteEnBundle(nombreBaseDatos: String) -> Bool{
+func dbExisteEnBundle(_ nombreBaseDatos: String) -> Bool{
     var valor:Bool?
     
     
     
-    if ((NSBundle.mainBundle().pathForResource(nombreBaseDatos, ofType:"sqlite")) != nil)
+    if ((Bundle.main.path(forResource: nombreBaseDatos, ofType:"sqlite")) != nil)
     {
         print("La base de datos si existe en el bundle");
         valor = true
@@ -67,3 +67,4 @@ func dbExisteEnBundle(nombreBaseDatos: String) -> Bool{
 
 
 }
+
