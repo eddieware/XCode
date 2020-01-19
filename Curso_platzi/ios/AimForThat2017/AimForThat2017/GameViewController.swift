@@ -18,12 +18,12 @@ class GameViewController: UIViewController {
 
         @IBAction func showAlert2() {
             // func para llamar la alerta
-            let alert = UIAlertController(title: "Hola mundo", message:
-            "Este es mi Juego Aim Fort That!", preferredStyle: .alert)//creacion de la alerta
+            let alert = UIAlertController(title: "Hola user", message:
+            "Este es mi Juego Aim Fort That!", preferredStyle: .alert)
             let action = UIAlertAction(title: "Genial!", style: .default, handler: nil)//constante accion para poder quitar la alerta
             alert.addAction(action)//añade la accion
             present(alert, animated: true)//presenta la alerta
-        }
+        }// fin del primer objeto producto de clase
     
     //La gran mayoria del trabajo de las apps es hacer los view controllers
         
