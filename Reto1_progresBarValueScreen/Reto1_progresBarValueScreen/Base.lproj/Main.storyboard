@@ -43,12 +43,25 @@
                                 <rect key="frame" x="350" y="206" width="196" height="2"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZLg-6i-BY9">
+                                <rect key="frame" x="350" y="322" width="196" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minimumValue="0.10000000000000001" maximumValue="1" stepValue="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="A0q-TF-wGd">
+                                <rect key="frame" x="234" y="307" width="94" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="StepperIncrease:" destination="BYZ-38-t0r" eventType="valueChanged" id="iva-0x-Xur"/>
+                                    <action selector="steper4:" destination="BYZ-38-t0r" eventType="valueChanged" id="F96-d2-Njt"/>
+                                </connections>
+                            </stepper>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="progress" destination="2JB-zS-GTZ" id="Txy-wg-abb"/>
+                        <outlet property="progressBar" destination="ZLg-6i-BY9" id="738-Ys-Tmj"/>
                         <outlet property="stepper" destination="QGG-gU-8eX" id="v1l-7w-KCd"/>
                     </connections>
                 </viewController>

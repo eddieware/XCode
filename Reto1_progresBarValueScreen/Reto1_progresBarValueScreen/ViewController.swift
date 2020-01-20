@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 //stepper
 var currentValue = 5
-var cuurrentValue2 = 0.0
+var currentValue2 = 0.0
 @IBOutlet var stepper: UIStepper!
 //fin var stepper 1
     
@@ -56,6 +56,16 @@ var cuurrentValue2 = 0.0
     //    SECTION TO CONTROL THE PROGRESS BAR 2
     
     
+    @IBAction func steper4(_ sender: UIStepper) {
+        self.currentValue2 = (sender.value)//
+        self.progressBar.progress = Float(currentValue2)
+        print(currentValue2)
+    }
     
+    
+        
+    
+    
+    @IBOutlet weak var progressBar: UIProgressView!
 }
 
