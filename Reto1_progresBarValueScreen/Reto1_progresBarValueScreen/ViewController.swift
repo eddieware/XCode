@@ -72,9 +72,10 @@ var strValue = readLine()
     @IBAction func setTextButton(_ sender: UIButton) {
         //grt text from text fieeld
         let mText = myText.text
-        textView.text = mText
-        print(mText!)// se destapa mtext para evitar el optional
+        textView.text = mText!
         
+        print(mText!)// se destapa mtext para quitar el optional
+        print(type(of: mText!))
     }
     
     
