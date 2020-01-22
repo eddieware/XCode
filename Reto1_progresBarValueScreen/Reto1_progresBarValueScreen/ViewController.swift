@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 //stepper
 var currentValue = 5
 var currentValue2 = 0.0
+var strValue = readLine()
 @IBOutlet var stepper: UIStepper!
 //fin var stepper 1
     
@@ -53,7 +54,7 @@ var currentValue2 = 0.0
     
     @IBOutlet weak var progress: UIProgressView!
     
-    //    SECTION TO CONTROL THE PROGRESS BAR 2
+    //    SECTION TO CONTROL THE PROGRESS BAR 2 WITH STEPPER BUTTON
     
     
     @IBAction func steper4(_ sender: UIStepper) {
@@ -62,10 +63,25 @@ var currentValue2 = 0.0
         print(currentValue2)
     }
     
-    
-        
-    
-    
     @IBOutlet weak var progressBar: UIProgressView!
+    
+    //
+    
+    @IBOutlet weak var myText: UITextField!//placeholder
+    @IBOutlet weak var textView: UITextView!
+    @IBAction func setTextButton(_ sender: UIButton) {
+        //grt text from text fieeld
+        let mText = myText.text
+        textView.text = mText
+        print(mText!)// se destapa mtext para evitar el optional
+        
+    }
+    
+    
+    
+    
 }
+
+
+
 
